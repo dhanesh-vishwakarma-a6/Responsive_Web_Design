@@ -1,0 +1,46 @@
+:root {
+    --clr-white: #fff;
+  
+    --clr-black-1: #222;
+    --cor-black-2: #353535;
+    --clr-blue: #284b63;
+  
+    --clr-green-1: #549da0;
+    --clr-green-2: #468486;
+    --clr-green-3: #549da0;
+  
+    --clr-grey-1: #868686;
+    
+    --spacing: 0.25rem;
+    --radius: 0.5rem
+    --max-width: 900px
+  
+    --ff-1: "open sans", "Helvetica Neue", Helvetica, sans-serif;
+  
+    --transition: all 300ms linear;
+  }
+  
+  /* * RESET */
+  body, blockquote, ul {
+      margin: 0;
+      padding: 0;
+  }
+  
+  /* * Tags */
+  body {
+    font-family: var(--ff-1);
+    line-height: 1.5;
+  }
+
+/* * ----  headings ---- */
+h1,
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
