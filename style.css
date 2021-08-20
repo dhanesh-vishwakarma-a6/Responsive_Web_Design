@@ -1,0 +1,108 @@
+/* * --- imports --- */
+@import url("./global.css");
+
+header {
+  color: var(--clr-white);
+  background-color: var(--clr-blue);
+  padding: 80px 0;
+  text-align: center;
+}
+
+section {
+  padding: 2.5rem;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* * ---- button ---- */
+.btn {
+  display: inline-block;
+  color: var(--clr-white);
+  background-color: var(--clr-green-1);
+
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-transform: capitalize;
+
+  padding: 1rem 1.5rem;
+
+  border: none;
+  border-radius: 0.3rem;
+
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--clr-green-2);
+}
+
+/* * ---- feature ---- */
+.features {
+  color: var(--clr-black-1);
+  background-color: var(--clr-white);
+}
+
+.feature {
+  display: inline-block;
+  width: 32%;
+}
+
+.feature img {
+  width: 40%;
+}
+
+/* * --- quote --- */
+.quote {
+  color: var(--clr-white);
+  background-color: var(--clr-green-3);
+}
+
+blockquote p {
+  font-size: 1.5rem;
+  padding-bottom: 0.25rem;
+}
+
+blockquote cite {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+blockquote cite::before {
+  content: "- ";
+  margin-right: 0.25rem;
+}
+
+/* * ----- footer ----- */
+footer {
+  color: var(--clr-grey-1);
+  font-size: 12px;
+  text-align: center;
+  background-color: var(--cor-black-2);
+
+  padding: 2rem 0;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer li a {
+  color: #c3c3c3;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 6px;
+  text-transform: capitalize;
+}
+
+footer li a:hover {
+  color: var(--clr-white);
+}
